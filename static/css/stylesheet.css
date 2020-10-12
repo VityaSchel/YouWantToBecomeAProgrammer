@@ -48,7 +48,8 @@ body {
   top: 50%;
   transform: translateY(-50%);
   padding: 50px;
-  width: calc(100% - 100px);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .main-content-heading {
