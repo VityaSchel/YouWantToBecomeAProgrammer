@@ -1,0 +1,112 @@
+:root {
+  --primary-color: rgb(99, 233, 112, 0.25);
+  --primary-light-color: #dddddd;
+  --primary-dark-color: rgb(26, 41, 70, 0.25);
+  --alternative-color: #2f79e8;
+}
+
+@font-face {
+  font-family: "Rubik One Regular";
+  src: url("/assets/fonts/rubik-one-regular.ttf");
+}
+
+@font-face {
+  font-family: "PT Sans Regular";
+  src: url("/assets/fonts/ptsans-regular.ttf");
+}
+
+@font-face {
+  font-family: "PT Sans Bold";
+  src: url("/assets/fonts/ptsans-bold.ttf");
+}
+
+html {
+  background-image: url("/assets/img/background-macbook-programming.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(var(--primary-color), var(--primary-dark-color));
+  margin: 0;
+  height: 100%;
+}
+
+.main-content {
+  background-color: var(--primary-light-color);
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+.main-content-inner {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 50px;
+  width: calc(100% - 100px);
+}
+
+.main-content-heading {
+  max-width: 500px;
+  width: 100%;
+}
+
+.main-content-heading > svg {
+  font-family: "Rubik One Regular";
+}
+
+.main-content-heading > svg {
+  width: 100%;
+}
+
+.main-content-inner > p {
+  font-family: "PT Sans Regular";
+  margin-bottom: 60px;
+  font-size: 1.2em;
+}
+
+.main-content-inner > a {
+  padding: 20px 55px;
+  background-color: var(--alternative-color);
+  font-family: "PT Sans Bold";
+  font-size: 1.5em;
+  letter-spacing: 0.07em;
+  border-radius: 999px;
+  box-shadow: 0px 0px 10px 1px var(--alternative-color);
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: fit-content;
+}
+
+@media(max-width: 730px), screen and (orientation:portrait) {
+
+  html {
+    height: 50%;
+  }
+
+  .main-content {
+    width: 100%;
+    height: 50%;
+    top:50%;
+  }
+
+  .main-content-inner > p {
+    font-size: min(5vw, 27px);
+    margin-bottom: 40px;
+  }
+
+  .main-content-inner > a {
+    padding-left: min(8vw, 44.5px);
+    padding-right: min(8vw, 44.5px);
+    padding-top: min(3vw, 16.5px);
+    padding-bottom: min(3vw, 16.5px);
+    font-size: min(6vw, 33px);
+  }
+  
+}
