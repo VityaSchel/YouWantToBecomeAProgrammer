@@ -7,21 +7,21 @@
 
 @font-face {
   font-family: "Rubik One Regular";
-  src: url("/assets/fonts/rubik-one-regular.ttf");
+  src: url("/YouWantToBecomeAProgrammer/assets/fonts/rubik-one-regular.ttf");
 }
 
 @font-face {
   font-family: "PT Sans Regular";
-  src: url("/assets/fonts/ptsans-regular.ttf");
+  src: url("/YouWantToBecomeAProgrammer/assets/fonts/ptsans-regular.ttf");
 }
 
 @font-face {
   font-family: "PT Sans Bold";
-  src: url("/assets/fonts/ptsans-bold.ttf");
+  src: url("/YouWantToBecomeAProgrammer/assets/fonts/ptsans-bold.ttf");
 }
 
 html {
-  background-image: url("/assets/img/background-macbook-programming.png");
+  background-image: url("/YouWantToBecomeAProgrammer/assets/img/background-macbook-programming.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -108,5 +108,5 @@ body {
     padding-bottom: min(3vw, 16.5px);
     font-size: min(6vw, 33px);
   }
-  
+
 }
