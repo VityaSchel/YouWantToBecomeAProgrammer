@@ -2,4 +2,4 @@
 Да ебись ты в рот!\
 [Пойти нахуй](https://vityaschel.github.io/YouWantToBecomeAProgrammer/)\
 \
-![russian meme](https://lh3.googleusercontent.com/proxy/dLIroev195im0Vi_vfaIZc0olRe5KZWVUt6iJXflNKWlTit-xwdLD9lIvbR4e-Z8vgM1eH5-wn7QcUMu7Vt6MFG-Rv3I49M07r_4w38n-v4V_emNTaqDFxyNLLzv2X6PDshCBgQfaU5mFc4S2BShdqN8Q4tTXmQdFvIqJ8xfrlTp4FIO_bVAOnPvD0JGkxMVvYPqI7HLkReX0DP9pGOsvIlRS4zAGepgQXMFpWLUW7qn6HFDXK4F4Lcw4XklVQoLbJkiNx8wwXHqwwzCyN6renvq7GbblP7_H7MKnI-5fqYcaVRoWF2CswzK5R6wuSgg_mtBv6c9Rh870-XyQBL9r1Ek8D7pQ1FMT4FhJ01cKQBPI7wvQZcaLZ9GHcnTkuBPUVnv_0Or)
+![russian meme](http://dubos.ru/wp-content/uploads/2019/01/hochesh-stat-programmistom-no-net-500x445.jpg)
