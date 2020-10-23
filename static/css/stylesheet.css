@@ -1,8 +1,9 @@
 :root {
-  --primary-color: rgb(99, 233, 112, 0.25);
+  --primary-color: rgba(99, 233, 112, 0.25);
   --primary-light-color: #dddddd;
-  --primary-dark-color: rgb(26, 41, 70, 0.25);
+  --primary-dark-color: rgba(26, 41, 70, 0.25);
   --alternative-color: #2f79e8;
+  --alternative-color-darken: #2c76e0;
 }
 
 @font-face {
@@ -73,12 +74,12 @@ body {
 
 .main-content-inner > a {
   padding: 20px 55px;
-  background-color: var(--alternative-color);
+  background: linear-gradient(var(--alternative-color), var(--alternative-color-darken));
   font-family: "PT Sans Bold";
   font-size: 1.5em;
   letter-spacing: 0.07em;
   border-radius: 999px;
-  box-shadow: 0px 0px 10px 1px var(--alternative-color);
+  box-shadow: 0px 3px 15px 1px var(--alternative-color);
   text-decoration: none;
   color: white;
   display: block;
